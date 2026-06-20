@@ -32,7 +32,6 @@ require("dotenv").config();
  * @param {2} CREATE_THE_DISCORD_BOT_CLIENT with some default settings
  *********************************************************/
 const client = new Discord.Client({
-    fetchAllMembers: false,
     restTimeOffset: 0,
     failIfNotExists: false,
     shards: "auto",
